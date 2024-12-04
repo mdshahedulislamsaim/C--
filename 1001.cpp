@@ -1,10 +1,11 @@
-#include <iostream>
 #include <stdio.h>
+#include <iostream>
 using namespace std;
- 
+
 int main() {
- 
-    cout << "Hello Bitch!" <<endl;
- 
+    int a,b;
+    cin >> a >> b;
+    cout << "X = " << a+b <<endl;
+    
     return 0;
 }
