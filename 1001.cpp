@@ -1,11 +1,14 @@
-#include <stdio.h>
 #include <iostream>
 using namespace std;
-
 int main() {
-    int a,b;
-    cin >> a >> b;
-    cout << "X = " << a+b <<endl;
-    
+ 
+int A, B, X;
+
+cin>> A>>B;
+X = A+B;
+
+cout<<"X = "<<X<<endl;
+
+ 
     return 0;
 }
