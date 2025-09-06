@@ -2,10 +2,9 @@
 
 int main()
 {
-    long long a;
-    scanf("%lld",&a);
+    int a;
+    scanf("%d",&a);
 
-    for(int i=0;i<a-1;i++)
-        printf("Ho ");
-    printf("Ho!\n");
+    for(int i=1;i<=a;i+=2)
+        printf("%d\n",i);
 }
