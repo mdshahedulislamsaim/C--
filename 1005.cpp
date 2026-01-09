@@ -7,7 +7,7 @@ int main() {
     cin>>a>>b;
     m =((a*c)+(b*d))/(c+d);
     
-    printf("MEDIA = %.5lfn",m );
+    printf("MEDIA = %.5lf\n",m );
  
   
  
